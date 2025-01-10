@@ -1,5 +1,5 @@
 package go_func_dasar
 
-func SayHello() string {
-	return "Hello"
+func SayHello(name string) string {
+	return "Hello " + name
 }
